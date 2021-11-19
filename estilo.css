@@ -1,0 +1,31 @@
+body{
+    /*border: 1px solid red;*/
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/749/190/non_2x/website-banner-investment-dashboard-diagram-graph-stock-trading-transparent-business-background-photo.jpg);   
+}
+.llenado{
+    border: 1px solid rgb(4, 31, 105);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-style: inset;
+    float: left;
+    border-radius: 15px;
+    background-image: radial-gradient(circle at 50% 47%, #b4b8ff 0, #7e93ff 25%, #486ee5 50%, #044aa8 75%, #002a70 100%);
+    color: rgb(0, 0, 0);
+
+}
+.respuesta{
+    border: 1px solid rgb(9, 3, 94);
+    width: 300px;
+    float: right;
+    background-image: radial-gradient(circle at 50% 47%, #b4b8ff 0, #7e93ff 25%, #486ee5 50%, #044aa8 75%, #002a70 100%);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    border-style: inset;
+
+}
