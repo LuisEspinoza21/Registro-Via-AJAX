@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="container">
+        <aside class="llenado">
+            <form name="formulario">
+                <h1>Registro</h1><br>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="n1"><br>
+                <br>
+                <label for="trabajo">Trabajo:</label>
+                <input type="text" id="t1"><br>
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fech"><br>
+                <br>
+                <input type="button" value="Guardar" id="btn">
+               
+            </form>
+        </aside>  
+        
+        <aside class="respuesta">
+            <div id="resultado">
+                
+                    <h1>Datos</h1>
+                    <br>
+                    <strong>ID:</strong>
+                    <span id="i"></span><br>
+                    <br>
+                    <strong>Nombre:</strong>
+                    <span id="n"></span><br>
+                    <br>
+                    <strong>Trabajo:</strong>
+                    <span id="t"></span><br>
+                    <br>
+                    <strong>Creado:</strong>
+                    <span id="f"></span><br>
+                    <br>
+                </div> 
+
+        </aside> 
+    
+    </section>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="codigo.js"></script>
+</body>
+</html>
